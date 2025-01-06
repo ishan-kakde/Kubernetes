@@ -13,3 +13,4 @@
 | kubectl delete deployment [deployment-name]                |  
 
 
+* Reference - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
