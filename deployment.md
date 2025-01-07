@@ -6,7 +6,8 @@
 | kubectl create deployment [deployment-name] --image=[image-name] --replicas=3 | 
 | kubectl create deployment [deployment-name] --image=[image-name] --replicas=3  --dry-run=client -o yaml > deployment-definition.yaml|
 | kubectl get deployment                                     |             
-| kubectl get deploy                                         |            
+| kubectl get deploy                                         |
+| kubectl get all                                            |
 | kubectl describe deployment                                |             
 | kubectl describe deployment [deployment-name]              |             
 | kubectl edit deployment [deployment-name]                  | 
