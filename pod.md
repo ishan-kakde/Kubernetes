@@ -7,7 +7,8 @@
 | kubectl run nginx --image=nginx -n=dev_namespace |             
 | kubectl run redis --image=redis --dry-run=client -o yaml |             
 | kubectl run redis --image=redis --dry-run=client -o yaml > pod-definition.yaml|
-|kubectl run redis -l tier=db --image=redis:alpine|
+| kubectl run redis -l tier=db --image=redis:alpine |
+| kubectl run custom-nginx --image=nginx --port=8080 |
 | kubectl get pod [pod-name] -o yaml > pod-definition.yaml|
 | kubectl get pods |
 | kubectl get po |
