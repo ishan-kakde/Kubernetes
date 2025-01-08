@@ -4,5 +4,6 @@
 |kubectl create service clusterip redis --tcp=6379:6379 --dry-run=client -o yaml|
 |kubectl expose pod nginx --port=80 --name nginx-service --type=NodePort --dry-run=client -o yaml|
 |kubectl expose pod redis --port=6379 --name redis-service --dry-run=client -o yaml|
+|kubectl run httpd --image=httpd:alpine --port=80 --expose _(this command creates both service and pod)_|
 
 #32
