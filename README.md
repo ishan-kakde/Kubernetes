@@ -1,5 +1,15 @@
 # Kubernetes
 
+**HomeBrew** - is macOS package manager<br>
+Follow installation steps here - https://brew.sh<br>
+Ensure to execute commands under Next steps to add HomeBrew to path - <br>
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/bad9e7af-02c0-4f30-8252-e505fd492263" /><br>
+
+HomeBrew enables analytics by default, you may opt out analytics by following instructions here - <br>
+https://docs.brew.sh/Analytics<br>
+Verify installation - **_brew --version_** <br>
+
+
 **Install Docker desktop** -
 
 https://docs.docker.com/desktop/setup/install/mac-install/<br>
@@ -72,6 +82,8 @@ once enabled, run below commands to verify -
 Or cluster can be installed separately using minikube. Minikube is a local Kubernetes cluster - 
 
 **_brew install minikube_**
+
+![image](https://github.com/user-attachments/assets/64e11fc5-5f13-4a68-b12a-7db6a000881a)
 
 once installed start minikube by assigning the driver which can be **docker, virtualBox, etc**
 
