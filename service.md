@@ -7,5 +7,6 @@
 |kubectl run httpd --image=httpd:alpine --port=80 --expose _(this command creates both service and pod)_|
 |minikube |
 |minikube service [service-name] --url |
+|https://minikube.sigs.k8s.io/docs/handbook/accessing/#using-minikube-service-with-tunnel|
 
 #32
