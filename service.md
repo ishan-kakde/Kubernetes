@@ -8,5 +8,6 @@
 |minikube |
 |minikube service [service-name] --url |
 |https://minikube.sigs.k8s.io/docs/handbook/accessing/#using-minikube-service-with-tunnel|
+|https://stackoverflow.com/questions/57021939/docker-for-desktop-runs-the-kubernetes-ip-address-is-not-working|
 
 #32
