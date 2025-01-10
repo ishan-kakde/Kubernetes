@@ -87,12 +87,12 @@ Or cluster can be installed separately using minikube. Minikube is a local Kuber
 
 once installed start minikube by assigning the driver which can be **docker, virtualBox, etc**
 
-**_minikube start --driver=docker_**
+**_minikube start --driver=docker_**  _(requires docker desktop to use docker as driver)_
 
+![image](https://github.com/user-attachments/assets/46b445f2-8d01-4644-8cec-6fd8ea626a61)<br>
 
-<br>
-<br>
-<br>
+**_minikube stop_** <br>
+**_minikube delete_** <br>
 
 **References** - <br>
 _Installation_ - https://kubernetes.io/docs/tasks/tools/<br>
