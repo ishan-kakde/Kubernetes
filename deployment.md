@@ -11,7 +11,7 @@
 | kubectl get all                                            |
 | kubectl describe deployment                                |             
 | kubectl describe deployment [deployment-name]              |             
-| kubectl edit deployment [deployment-name]                  | 
+| kubectl edit deployment [deployment-name]  _(deployment automatically deletes old and creates new pods)_ | 
 | kubectl delete deployment [deployment-name]                |  
 | kubectl set image deployment [deployment=name] nginx=nginx:1.18-perl --record |
 
