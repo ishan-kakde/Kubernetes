@@ -15,7 +15,7 @@
 | kubectl get po -A|
 | kubectl get po -o wide|
 | kubectl describe pod [pod-name]  |            
-| kubectl edit pod [pod-name] |
+| kubectl edit pod [pod-name] _(need to delete existing pods first then create new pods using temp file)_|
 | kubectl exec [ubuntu-pod] -- whoami |
 | kubectl replace --force -f updated-pod-definition.yaml|
 | kubectl delete pod [pod-name]|
