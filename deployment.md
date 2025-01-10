@@ -13,6 +13,7 @@
 | kubectl describe deployment [deployment-name]              |             
 | kubectl edit deployment [deployment-name]                  | 
 | kubectl delete deployment [deployment-name]                |  
+| kubectl set image deployment [deployment=name] nginx=nginx:1.18-perl --record |
 
 
 * Reference - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
