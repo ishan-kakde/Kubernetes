@@ -8,4 +8,6 @@
 |kubectl get configmap [map-name] -o yaml|
 |kubectl describe configmap [map-name]|
 |kubectl delete configmap [map-name] |
- 
+
+
+Reference - https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/
