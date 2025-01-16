@@ -13,7 +13,7 @@ spec:
         - containerPort: 80
       env:
         - name: color
-          value: "blue"
+          value: blue
         - name: decouple
           value: "false"
           
