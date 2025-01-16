@@ -11,9 +11,5 @@ spec:
       image: nginx
       ports:
         - containerPort: 80
-      env:
-        - name: color
-          value: blue
-        - name: decouple/Users/ishan/mydata/git/sample-pod-definition.yaml
-          value: false
+      # TO-DO
           
