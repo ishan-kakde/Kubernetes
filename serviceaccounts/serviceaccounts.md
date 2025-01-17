@@ -15,7 +15,7 @@
 |Every namespace has a default service account|
 |If a default service account is deleted, the controlplane replaces it with new one|
 |When a new pod is created, it is assigned with default service account & token is mounted as volume mount|
-|Describe pod and verify Service Account, Mounts, volumes, run exec commands from commands section |
+|Describe pod and verify Service Account, Mounts, volumes. _(run exec commands from commands section to view token)_ |
 |default service account can be overriden by including **serviceAccountName** property in pod definition file|
 
 
