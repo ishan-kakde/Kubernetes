@@ -12,6 +12,7 @@
 | kubectl describe deployment                                |             
 | kubectl describe deployment [deployment-name]              |             
 | kubectl edit deployment [deployment-name]  _(deployment automatically deletes old and creates new pods)_ | 
+| kubectl get deployment [deployment-name] -o yaml > deployment-definition.yaml  _(vi and edit yaml, then run kubectl apply -f deployment-definition.yaml)_ |
 | kubectl delete deployment [deployment-name]                |  
 | kubectl set image deployment [deployment=name] nginx=nginx:1.18-perl --record |
 
