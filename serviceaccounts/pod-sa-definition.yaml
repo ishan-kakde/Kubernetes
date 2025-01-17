@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx-pod-sa
+  name: nginx-pod-sa
+spec:
+  serviceAccountName: my-sa
+  containers:
+  - image: nginx
+    name: nginx-pod-sa
