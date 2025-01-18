@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu-pod
+spec:
+  securityContext:  #sc at pod level
+    runAsUser: 1000
+  containers:
+    - name: ubuntu-container
+      image: ubuntu
+      command: ["sleep", "3600"]
+      securityContext:   # sc at container level
+        runAsUser: 1010 
+        capabilities: 
+          add: ["MAC_ADMIN", "NET_ADMIN"]
