@@ -15,7 +15,7 @@
 |**PreferNoSchedule** Scheduler will try to avoid placing a Pod that does not tolerate the taint on the node, but is not **guranteed**|
 |A node may have mulitple taints and a pod may have multiple tolerations|
 |Tolerations in a Pod definition has four attributes - **key, operator, value, effect**  |
-|operator can have two values - ** Equal or Exists**. The default value of the operator is  **Equal**|
+|Operator can have two values - **Equal** or **Exists**. The default value of the operator is  **Equal**|
 | * A toleration with operator **Equals** matches a taint if a key, value & effect is matching (value must be specified) |
 | * A toleration with operator **Exists** matches a taint if a key and effect is matching (**no value** should be specified) |
 
