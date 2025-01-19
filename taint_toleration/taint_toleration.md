@@ -18,6 +18,8 @@
 |Operator can have two values - **Equal** or **Exists**. The default value of the operator is  **Equal**|
 | * A toleration with operator **Equals** matches a taint if a key, value & effect is matching (value must be specified) |
 | * A toleration with operator **Exists** matches a taint if a key and effect is matching (**no value** should be specified) |
+| * Values of tolerations feilds (key, value, operator, effect) in a pod definition file must be defined in **"double-quotes"**|
+
 
 **Reference** - <br>
 https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration<br>
