@@ -1,8 +1,8 @@
 |**commands**||
 |:-------|:------|
-|add taint| kubectl taint nodes node1 key1=value1:NoSchedule |
-|remove taint| kubectl taint nodes node1 key1=value1:NoSchedule-|
-|add toleration|toleration can be added to a Pod through the pod-definition.yaml file|
+|add taint| kubectl taint nodes [node-name] [key]=[value]:[Effect] |
+|remove taint| kubectl taint nodes [node-name] [key]=[value]:[Effect]-|
+|add tolerations|tolerations are defined in pod definition yaml file|
 
 |**summary**|
 |:------|
