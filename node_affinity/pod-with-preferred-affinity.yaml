@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+        - matchExpressions:
+          - key: [key-name]
+            operator: In # NotIn, Exists, DoesNotExists, Gt, Lt
+            values:
+            - [key-value]            
+  containers:
+  - name: nginx
+    image: nginx
+
