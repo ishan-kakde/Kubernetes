@@ -16,7 +16,7 @@
 |**requiredDuringSchedulingIgnoredDuringExecution** - The scheduler can't schedule the Pod unless the rule is met. This functions like nodeSelector, but with a more expressive syntax|
 |**preferredDuringSchedulingIgnoredDuringExecution** - The scheduler tries to find a node that meets the rule. If a matching node is not available, the scheduler still schedules the Pod.|
 |**IgnoredDuringExecution** means that if the node labels change after Kubernetes schedules the Pod, the Pod continues to run|
-|logical **operators** are **In, NotIn, Exists, DoesNotExists, Gt, Lt**|
+|You can use the operator field to specify a logical operator for Kubernetes to use when interpreting the rules. You can use **In, NotIn, Exists, DoesNotExist, Gt and Lt**|
 |The field value will be parsed as integer when **Gt, Lt** operators are used _(Gt - Greater Than, Lt - Less Than)_|
 
 

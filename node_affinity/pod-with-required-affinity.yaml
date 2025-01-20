@@ -9,7 +9,7 @@ spec:
         nodeSelectorTerms:
         - matchExpressions:
           - key: [key-name]
-            operator: In
+            operator: In # NotIn, Exists, DoesNotExists, Gt, Lt
             values:
             - [key-value]            
   containers:
