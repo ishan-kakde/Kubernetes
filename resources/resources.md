@@ -1,6 +1,3 @@
-|**commands**|
-|:-------|
-
 |**summary**|
 |:------|
 |When you specify a Pod, you can optionally specify how much of each resource a container needs|
