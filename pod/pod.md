@@ -13,6 +13,7 @@
 |Kubernetes tracks the state of each container inside a Pod. There are three possible container states: **Waiting, Running, and Terminated**.|
 |Assigning a Pod to a specific node is called **binding** and process to select which node to use is called **scheduling** |
 
+<br><br>
 
 |**commands**|
 |:------|                                                                       
@@ -35,6 +36,7 @@
 | kubectl replace --force -f updated-pod-definition.yaml _(force deletes existing pods and recreates them with latest changes)_|
 | kubectl delete pod [pod-name]|
 
+<br><br>
 
 **Reference** - <br>
 https://kubernetes.io/docs/concepts/workloads/pods<br>
